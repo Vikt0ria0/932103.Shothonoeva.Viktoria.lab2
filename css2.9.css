@@ -1,0 +1,15 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    }
+    div{
+    color: white;
+    background-color: blue;
+    width: 700px;
+    margin: 0 auto;
+    }
+    #pic{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    }

@@ -1,0 +1,34 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1;
+    }
+    .main{
+    display: flex;
+    border: 1px solid green;
+    }
+    aside{
+    flex: 1 0 auto;
+    background-color: aqua;
+    }
+    #pic{
+    width: 50%;
+    float: right;
+    }
+    .clear{
+    clear: both;
+    }
+    ul{
+    background: bisque;
+    margin: 0;
+    padding: 15px;
+    }
+    li{
+    list-style: disc inside;
+    }
+    .content{
+    background-color: darkgrey;
+    max-width: 1000px;
+    line-height: 18px;  
+    }

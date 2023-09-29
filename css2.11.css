@@ -1,0 +1,14 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    }
+    div{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    border: 1px solid green;
+    }
+    p{
+    font-size: 15px;    
+    margin: 0;
+    }

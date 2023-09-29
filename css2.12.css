@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    }
+    .main{
+    display: flex;
+    border: 1px solid green;
+    background-color: aqua;
+    }
+    nav{   
+    width: 310px;
+    }
+    ul{
+    background-color: bisque;
+    margin: 0px 5px 0px 0px;
+    padding: 10px;
+    background: bisque;
+    margin-top: 0px;
+    }
+    ul li{
+    list-style: disc inside;
+    }
+    .text{
+    line-height: 18px;
+    background-color: darkgrey;
+    }
+    @media (max-width: 830px){
+        .main{
+        flex-direction: column;
+        }
+        .text{
+        max-width: 65%;
+        }
+        nav{
+        max-width: 17%;
+        }
+    }

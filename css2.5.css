@@ -1,0 +1,19 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    }
+    main{
+    color: white;
+    }
+    main div{
+    width: 500px;
+    margin: 0 auto;
+    }
+    .green{
+    background-color: forestgreen;
+    margin-bottom: 20px;
+    }
+    .blue{
+    padding: 50px;
+    background-color: blue;
+    }

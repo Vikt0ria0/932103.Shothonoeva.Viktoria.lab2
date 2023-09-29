@@ -1,0 +1,43 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    }
+    .main{
+    display: flex;
+    border: 1px solid green;
+    background-color: aqua;
+    }
+    .navigation{
+    width: 300px;
+    background-color: bisque;
+    }
+    ul{
+    margin-top: 0;
+    padding: 10px;
+    background: bisque;
+    }
+    ul li{
+    list-style: disc inside;
+    }
+    .text{
+    line-height: 18px;
+    background-color: darkgrey;
+    }
+    @media (max-width: 840px) {
+        .main{
+        flex-direction: column;
+        }
+        .text{
+        width: auto;
+        }
+        .navigation{
+        width: auto;
+        }
+        .navigation ul{
+        padding: 0 30px;
+        margin: 10px 0;
+        }
+        .navigation ul li{
+        display: inline-block;
+        }
+    }

@@ -1,0 +1,12 @@
+.block {
+    max-width: 7000px;
+	min-width:320px;
+	background:blue;
+    position: absolute;
+    right:0;
+	left:0;
+    margin: auto;
+	font-size:12px;
+	line-height: 1.2em;
+	font-weight:100;
+    color: white;}

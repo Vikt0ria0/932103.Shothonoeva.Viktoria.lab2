@@ -1,0 +1,16 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    }
+    .main{
+    width: 500px;
+    margin: 0 auto;
+    }
+    .content{
+    margin-bottom: 20px;
+    }
+    .box{
+    box-sizing: border-box;
+    border: 10px solid blue;
+    padding: 50px;
+    }
